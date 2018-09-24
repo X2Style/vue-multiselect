@@ -533,6 +533,7 @@ fieldset[disabled] .multiselect {
 
 .multiselect__tag_blocked {
   background: #999999;
+  padding-right: 10px;
 }
 
 .multiselect__tag-icon {
