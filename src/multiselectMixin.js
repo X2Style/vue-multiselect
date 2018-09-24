@@ -591,7 +591,7 @@ export default {
       }
 
       /* istanbul ignore else */
-      if (this.option.$isBlocked) {
+      if (option.$isBlocked) {
         return
       }
 
