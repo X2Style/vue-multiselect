@@ -590,6 +590,11 @@ export default {
         return
       }
 
+      /* istanbul ignore else */
+      if (this.option.$isBlocked) {
+        return
+      }
+
       const index = typeof option === 'object'
         ? this.valueKeys.indexOf(option[this.trackBy])
         : this.valueKeys.indexOf(option)
